@@ -10,12 +10,12 @@ public class singAnotherSong {
 
             String word = "ducks";
             for(int i = ducks; i > 0; i--) {
-                System.out.println(" " + word + " little ducks went swimming one day");
+
+                System.out.println(" " + i + " little ducks went swimming one day");
                 System.out.println("over the hill and far away");
                 System.out.println("Mother duck said, “Quack quack quack quack”");
-                System.out.println("And only" + word + "little ducks came back!");
                 if (i == 1) {
-                    System.out.println("And all the little ducks came back (with strange and wondderful super powers).");
+                    System.out.println("And all the other little ducks came back (with strange and wonderful super powers).");
                     System.out.println("At first they went about their average and normal lives. But soon they desired more");
                     System.out.println("They fashioned new decorative garments, masks and capes.");
                 }
@@ -25,6 +25,7 @@ public class singAnotherSong {
                         word = "bottle";
                     }
                     System.out.println();
+
                 }
 
             }

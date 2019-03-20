@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class singAnotherSong {
+public class singAnotherSong{
 
     private void singAgain(){
 
@@ -94,17 +94,21 @@ public class singAnotherSong {
             Random r = new Random();
             String move = "";
             int i = r.nextInt(3);
+            String botsMove = "The mutant duck chose ";
             switch(i){
                 case 0:
                     move = "Rock";
+                    System.out.println(botsMove + move);
                     break;
 
                 case 1:
                     move = "Paper";
+                    System.out.println(botsMove + move);
                     break;
 
                 case 2:
                     move = "Scissors";
+                    System.out.println(botsMove + move);
                     break;
             }
             return move;

@@ -15,6 +15,7 @@ public class singAnotherSong {
                 System.out.println(" " + i + " little ducks went swimming one day");
                 System.out.println("over the hill and far away");
                 System.out.println("Mother duck said, “Quack quack quack quack”");
+
                 if (i == 1) {
                     System.out.println("And all the other little ducks came back (with strange and wonderful super powers).");
                     System.out.println("At first they went about their average and normal lives. But soon they desired more");
@@ -54,7 +55,7 @@ public class singAnotherSong {
             System.out.println("One of the ducks pulls out a perfectly formed mutant hand...");
             System.out.println("He approaches you and challenges you to a game of rock paper scissors!");
 
-            System.out.println("Ent: ");
+            System.out.println("What is your name fair human? ");
             playerName = myScanner.nextLine();
             playGame();        //Answer: James but I do look like a Tom
         }

@@ -14,8 +14,6 @@ public class cat {
             this.attitude = attitude;
             this.emotion = emotion;
 
-
-
         }
 
         String meow(String attitude) {
@@ -32,8 +30,6 @@ public class cat {
             return meow;
 
         }
-
-
 
         String tail(String emotion) {
             String tail = " ";

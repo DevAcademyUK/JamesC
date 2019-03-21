@@ -69,7 +69,7 @@ public class createAnimal {
         String wag = myDog.wag(size);
         String move = myDog.move(weight);
 
-        System.out.println(name+" is "+age+". "+"It is a "+size+" "+" and "+weight);
+        System.out.println(name+" is "+age+". "+"It is a "+size+" and "+weight);
         System.out.println();
         System.out.println("DOG CREATED SUCCESSFULLY");
         System.out.println("Hi human, my name is "+name+". "+bark+" "+wag+" i am "+move);

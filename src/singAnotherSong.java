@@ -1,6 +1,8 @@
 import java.util.Random;
 import java.util.Scanner;
 
+
+
 public class singAnotherSong{
 
     private void singAgain(){
@@ -158,6 +160,8 @@ public class singAnotherSong{
         duckSong.singAgain();
         rockPaperScissors game = new rockPaperScissors();
         game.initialiseGame();
+
+
 
 
 

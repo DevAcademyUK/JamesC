@@ -11,18 +11,18 @@ public class initialiseUser {
     public initialiseUser(String passWord, String iD) {
 
         this.name = name;
-        this.iD = this.iD;
-        this.passWord = this.passWord;
+        this.iD = iD;
+        this.passWord = passWord;
     }
 
 
     String activateAccount(String ID, String passWord) {
         String activateAccount = " ";
-        if (iD == "s.jones" && passWord == "dog") {
-            activateAccount = "welcome";
+        if (iD == "s.jones" && passWord == "password") {
+            activateAccount = "welcome "+name;
 
         } else {
-            System.out.println("Incorrect ID");
+            activateAccount = "Incorrect ID";
         }
         return activateAccount;
     }

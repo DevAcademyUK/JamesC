@@ -16,7 +16,7 @@ public class initialiseUser {
     }
 
 
-    String activateAccount(String ID, String passWord) {
+    String activateAccount(String iD, String passWord) {
         String activateAccount = " ";
         if (iD == "s.jones" && passWord == "password") {
             activateAccount = "welcome "+name;

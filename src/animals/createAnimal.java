@@ -25,7 +25,6 @@ public class createAnimal {
             createCat();
         } else
             System.out.println(animal + " is not an animal we can currently create, please try again");
-
     }
 
     private void createCat() {
@@ -38,7 +37,7 @@ public class createAnimal {
         System.out.println("How happy is your cat?");
         String emotion = myScanner.nextLine();
 
-
+//calling a constructor for cat object
         cat myCat = new cat(name, age, attitude, emotion);
 
         String meow = myCat.meow(attitude);

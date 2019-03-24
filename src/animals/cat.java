@@ -7,7 +7,7 @@ public class cat {
         private String attitude;
         private String emotion;
 
-
+//constructor for cat
         public cat (String name, String age, String attitude, String emotion){
             this.name = name;
             this.age = age;

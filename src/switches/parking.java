@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class parking {
 
-    Scanner myScanner = new Scanner(System.in);
+    Scanner myScanner;
 
     public static void main(String[] args){
 
@@ -12,7 +12,7 @@ public class parking {
         parking p = new parking();
         p.getInput();
     }
-//creating Input form using scanners
+
     private void getInput() {
         System.out.println("What day is it?");
         String day = myScanner.nextLine();
@@ -21,9 +21,12 @@ public class parking {
         System.out.println("What position do you hold within the college? (Staff/Student/Visitor)");
         String position = myScanner.nextLine();
         calculateFees(day, duration, position);
-
     }
-//creating constructor for form selections
+
+    public parking(){
+        myScanner = new Scanner(System.in);
+    }
+
     private void calculateFees(String day, int duration, String position) {
         int cost;
         int hourlyRate = 0;
@@ -83,9 +86,9 @@ public class parking {
                 getInput();
         }
 
-
+//
         cost = (hourlyRate * multiplier) * duration;
-        System.out.println("Thanks for parking at the pub. Please pay: "+ cost +"£");
+        System.out.println("Thanks for parking at the pub. Please pay: £"+cost);
 
     }
 

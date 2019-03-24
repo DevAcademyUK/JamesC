@@ -8,7 +8,7 @@ class bankingTerminal {
 
 
     //instance variable for scanner
-    Scanner myScanner = new Scanner(System.in);
+    private Scanner myScanner = new Scanner(System.in);
 
     public static void main(String []args){
 
@@ -73,7 +73,8 @@ class bankingTerminal {
 
         float balance = 175;
 
-        float deposit = myScanner.nextFloat();
+        float deposit;
+        deposit = myScanner.nextFloat();
 
 
         System.out.println("Welcome! Here are your banking service options: ");

@@ -152,6 +152,8 @@ public class files {
         title = title.substring(0, 1).toUpperCase() + title.substring(1);
         forename = forename.substring(0, 1).toUpperCase() + forename.substring(1);
         surname = surname.substring(0, 1).toUpperCase() + surname.substring(1);
+        position = position.substring(0, 1).toUpperCase() + position.substring(1);
+
 
         //asks for confirmation
         System.out.println("would you like to add the following record: " + title + " " + forename + " " +" " + surname + " " + email + " " +dob +" " + address +" " + city+" "+country +" " + postcode +" " + number +" " +position+" " +startDate);
